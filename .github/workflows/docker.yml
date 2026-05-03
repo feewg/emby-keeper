@@ -6,7 +6,7 @@ on:
     types: [released]
 
 env:
-  REGISTRY_IMAGE: ghcr.io/emby-keeper/embykeeper
+  REGISTRY_IMAGE: ghcr.io/${{ github.repository_owner }}/embykeeper
   HF_SPACE_REPO: ekuser/ek
 
 permissions:
